@@ -1,9 +1,9 @@
 {
-    "description": "whatsapp pair code generator by limule Solitarus",
+    "description": "whatsapp pair code generator by kgtech-cmr",
     "main": "./index.js",
   "engines" : { 
     "npm" : ">=9.7.2",
-    "node" : ">=20.0.0"
+    "node" : ">=18.18.0"
     },
     "scripts": {
     "start": "node pair.js"
