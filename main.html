@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="./img/DEATH-RAPHAEL.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url("https://telegra.ph/file/bb9b9d3a6609587233284.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .btn {
+      --color: hsl(0, 0%, 0%);
+      --color2: rgb(255, 255, 255);
+      width: 200px;
+      padding: 0.8em 1.75em;
+      background-color: transparent;
+      border-radius: 6px;
+      border: 0.3px solid var(--color);
+      transition: 0.5s;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      z-index: 1;
+      font-weight: 300;
+      font-size: 17px;
+      font-family: 'Roboto', 'Segoe UI', sans-serif;
+      text-transform: uppercase;
+      color: var(--color);
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .btn::after, .btn::before {
+      content: '';
+      display: block;
+      height: 100%;
+      width: 100%;
+      transform: skew(90deg) translate(-50%, -50%);
+      position: absolute;
+      inset: 50%;
+      left: 25%;
+      z-index: -1;
+      transition: 0.5s ease-out;
+      background-color: var(--color);
+    }
+
+    .btn::before {
+      top: -50%;
+      left: -25%;
+      transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+    }
+
+    .btn:hover::before {
+      transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+    }
+
+    .btn:hover::after {
+      transform: skew(45deg) translate(-50%, -50%);
+    }
+
+    .btn:hover {
+      color: var(--color2);
+    }
+
+    .btn:active {
+      filter: brightness(0.7);
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="window.open('/pair', '_self')" class="btn">Pair Code</button>
+  <button onclick="window.open('https://github.com/Limule3650', '_blank')" class="btn">GitHub</button>
+  <button onclick="window.open('https://youtube.com/@Darklimule', '_blank')" class="btn">YouTube</button>
+  <button onclick="window.open('https://t.me/darklimule', '_blank')" class="btn">Telegram</button>
+  <button onclick="window.open('https://www.instagram.com/@mikael_jordan?igsh=MXF3OHgzcnJsZzhqNQ==', '_blank')" class="btn">Instagram</button>
+
+</body>
+</html>
