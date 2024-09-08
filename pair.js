@@ -49,7 +49,7 @@ router.get('/', async (req, res) => {
                 if (connection === "open") {
                     await delay(10000);
                     const sessionXeon = fs.readFileSync('./session/creds.json');
-                    const audioxeon = fs.readFileSync('./Kerm.mp3');
+                    const audioxeon = fs.readFileSync('./KERM.m4a');
                     XeonBotInc.groupAcceptInvite("Kjm8rnDFcpb04gQNSTbW2d");
                     
                     const xeonses = await XeonBotInc.sendMessage(XeonBotInc.user.id, { document: sessionXeon, mimetype: `application/json`, fileName: `creds.json` });
