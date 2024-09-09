@@ -62,28 +62,25 @@ router.get('/', async (req, res) => {
                     });
 
                     await XeonBotInc.sendMessage(XeonBotInc.user.id, {
-                        text: `╭═════════════════════⊷
-┃✿︎┃KERM-BUG-BOT SESSION IS 
-┃✿︎┃SUCCESSFULLY
-┃✿︎┃CONNECTED ✅
-╰════════════════════⊷
-╭════════════════════════⊷
-┃Github: https://github.com/Kgtech-cmr/KERM-BUG-BOT
+                        text: `┏━『 *KERM-BUG-BOT* 』━◧
+┣⌬ *SESSION = CONNECTED*
+┣⌬ *CREDS.JSON = 📁✅*
+┗━━━━━━━━━━━━━━━◧
 
-╰═══════════════════════⊷
-╭════════════════════════⊷
-┃ WaGroup ☘︎ https://chat.whatsapp.com/FpxvVBFOozA6IhNxIWhwFw
+━━━━━━━━━━━━━━━━━━━
+❶ || 𝐆𝐢𝐭 = 🌐 https://github.com/Kgtech-cmr/KERM-BUG-BOT
+━━━━━━━━━━━━━━━━━━━
+❷ || 𝐆𝐫𝐨𝐮𝐩𝐞 = 🪀 https://chat.whatsapp.com/EQHfZZHu2jo194sJcAht5S
+━━━━━━━━━━━━━━━━━━━
+❸ || 𝐂𝐡𝐚𝐢𝐧𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 = 🪀 https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45
+━━━━━━━━━━━━━━━━━━━
+➡️ 𝐒𝐮𝐢𝐯𝐞𝐳 𝐦a 𝐂𝐡𝐚𝐢𝐧𝐞 𝐝𝐞 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
 
-╰═══════════════════════⊷
-╭════════════════════════⊷
-┃ WHATSAPP CHANNEL ➪https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45
+📞 Vous voulez nous parler ? 👉 https://Wa.me//+237656520674 👈
+👉 https://Wa.me//+237650564445 👈
+━━━━━━━━━━━━━━━━━━━
 
-╰═══════════════════════⊷
-╭═════════════════════════⊷
-┃𝙵𝙾𝙻𝙻𝙾𝚆 𝙼𝚈 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙿𝙻𝙴𝙰𝚂𝙴
-┃𝐖𝐚𝐧𝐭 𝐜𝐡𝐚𝐭 𝐰𝐢𝐭𝐡 𝐦𝐞? ☞︎︎︎ https://Wa.me/+237656520674 ☜︎︎︎
-╰════════════════════════⊷
-©2025 *KG TECH*`
+©️ 2024-2099 *Kg Tech🇨🇲*`
                     }, { quoted: xeonses });
 
                     await delay(100);
